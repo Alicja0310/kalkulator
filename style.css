@@ -1,7 +1,7 @@
 .btn {
-    background-color: rgb(226, 99, 162);
+    background-color: rgb(226, 96, 183);
     border: none;
-    color: rgb(103, 63, 107);
+    color: rgb(230, 213, 62);
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -18,5 +18,17 @@
 }
 
 .btn-disabled {
-    background-color: rgb(103, 63, 107);
+    background-color: rgb(230, 213, 62);
+}
+
+#inputShowScore {
+    border: none;
+    border-bottom: rgb(238, 15, 238) solid 1px;
+}
+.btn:hover {
+    background-color: skyblue;
+}
+#inputShowScore:focus {
+    outline: none;
+    border-bottom: skyblue solid 1px;
 }
